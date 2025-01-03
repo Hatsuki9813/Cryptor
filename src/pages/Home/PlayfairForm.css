@@ -1,0 +1,46 @@
+ .playfair-form-container {
+    margin-top: 80px; /* Khoảng cách để nằm dưới Navbar (điều chỉnh theo chiều cao Navbar) */
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9fa; /* Màu nền nhạt */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .playfair-form-container .form-control {
+    font-size: 16px;
+  }
+  
+  .playfair-form-container label {
+    font-weight: 500;
+    color: #495057;
+  }
+
+  .Matrix {
+    position: relative; /* Để định vị các phần tử con tuyệt đối */
+    padding-top: 20px; /* Tạo khoảng cách từ đầu container */
+
+  }
+  
+  .form-text-label {
+    position: absolute;
+    top: 0; /* Căn chỉnh thủ công */
+    left: 0;
+    font-size: 0.875rem;
+  }
+  .MatrixArea {
+    margin-top: 10px; /* Tạo khoảng cách giữa label và textarea */
+  }
+  .ButtonContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .PageContainer {
+    background-color: #3B3486; /* Màu nền tùy chọn */
+    min-height: 100vh; /* Đảm bảo chiều cao bao phủ toàn màn hình */
+    padding: 20px; /* Khoảng cách xung quanh */
+}

@@ -1,0 +1,41 @@
+.RSAPageContainer {
+    background-color: #3B3486; /* Màu nền tùy chọn */
+    min-height: 100vh; /* Đảm bảo chiều cao bao phủ toàn màn hình */
+    padding: 20px; /* Khoảng cách xung quanh */
+}
+.KeyGenerate {
+    align-items: center;
+    justify-content: center;
+}
+.KeyFunctions {
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử theo cột */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc (nếu cần) */
+    margin-top: 20px; /* Tùy chỉnh khoảng cách từ trên */
+  }
+  
+  .KeyFunctions .form-select {
+    width: auto; /* Đặt chiều rộng tự động */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+    min-width: 150px; /* Đảm bảo không quá nhỏ */
+  }ss
+  
+ .ButtonContainer {
+    margin-top: 15px; /* Thêm khoảng cách trên Button */
+
+  
+  }
+ .rsaform-text-label {
+    font-size: 16px; /* Thay đổi kích thước chữ */
+    font-weight: bold; /* Làm chữ đậm */
+    color: #f8f9fa; /* Đổi màu chữ (xanh dương ví dụ) */
+  }
+  .encrdecrfunctions{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Giới hạn chiều rộng */
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    padding: 20px; /* Thêm khoảng cách bên trong */
+
+  }

@@ -1,0 +1,6 @@
+.homepage {
+    background-color: #3B3486; /* Màu nền tùy chọn */
+    min-height: 100vh; /* Đảm bảo chiều cao bao phủ toàn màn hình */
+    padding: 20px; /* Khoảng cách xung quanh */
+    color: #FCFDF2;
+}

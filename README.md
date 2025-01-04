@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🔥 Cryptor
+## 🙏 Giới thiệu
+Đây là đồ án cuối kì môn NT101 - An toàn mạng máy tính với đề tài "Ứng dụng Web Cryptor" 
+## 🎯 Mục tiêu
+Đối với người dùng thông thường, khi họ tìm kiếm các công cụ mật mã học, thì họ thường quan tâm đến các công cụ có sẵn trên nền tảng web trước tiên bởi vì tính tiện lợi và không cần phải thông qua quá trình cài đặt phức tạp.Chính vì vậy, nhóm chọn cách thực hiện ứng dụng trên nền tảng web để hướng đến sự tiện lợi, dễ thao tác cho người dùng
+## 🔧 Tính năng chính
+- **Thực hiện thuật toán RSA, Playfair, và Demo-RSA.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **Sinh khóa ngẫu nhiên**
 
-## Available Scripts
+## 🔧 Công nghệ sử dụng 
+- React Native
+- NodeJS ( Express ) 
+## 📖 Cách sử dụng 
+### 1. Yêu cầu hệ thống
+- Node.js (phiên bản mới nhất)
+- Git
+- Visual Studio Code với các extension hô trợ ReacJS
+### 2. Cách cài đặt
+1. Clone repository:
+   ```bash
+   git clone https://github.com/Hatsuki9813/Cryptor.git
+   ```
+2. Cài đặt các thư viện cần thiết:
+   ```bash
+   npm install
+   ```
+3. Chạy dự án frontend:
+   ```bash
+   npm start
+   ```
+4. Dự án sẽ được mở trên trình duyệt 
+5. Link repo Backend: https://github.com/Hatsuki9813/Cryptor_BE
+## ⚡Phương hướng phát triển 
+- Thêm nhiều tính năng và đa dạng hóa các công cụ mã hóa
+- Hỗ trợ tính năng upload file
+- Tối ưu hóa mã nguồn
+## 📌Góp ý 
+Nếu có thắc mắc nào, liên hệ chúng tôi
 
-In the project directory, you can run:
+Email: 22520600@gm.uit.edu.vn
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

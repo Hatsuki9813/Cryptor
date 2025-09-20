@@ -1,0 +1,43 @@
+.RSADemoPageContainer {
+    background-color: #3B3486; /* Background color */
+    min-height: 100vh; /* Ensure full-screen height */
+    padding: 20px; /* Add padding around */
+  }
+  
+  .RSADemo-form-container {
+    margin-top: 80px; /* Distance below Navbar */
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center-align the button */
+    margin-top: 20px; /* Add spacing above */
+  }
+  
+  .Result {
+    margin-top: 20px; /* Space above result section */
+  }
+  
+  .ResultRow {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .ResultRow .form-text-label {
+    margin-right: 10px; /* Space between label and value */
+    font-weight: bold; /* Emphasize labels */
+  }
+  
+  .ResultValue {
+    color: #333; /* Text color for result values */
+  }
+  

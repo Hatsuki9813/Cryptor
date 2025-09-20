@@ -1,0 +1,19 @@
+.navbar-custom {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030; /* Đảm bảo Navbar nằm trên các phần tử khác */
+    background-color: #7743DB;
+}   
+.navbar-custom .navbar-brand {
+    color: #FCFDF2; /* Màu chữ cho navbar-brand (Tomato) */
+    font-weight: bold; /* Đậm hơn */
+    font-size: 2rem; /* Tăng kích thước chữ */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+  }
+.navbar-custom .nav-link {
+    font-size:1rem;
+    color: #FCFDF2; /* Màu chữ cho navbar-brand (Tomato) */
+    font-weight: bold; /* Đậm hơn */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
